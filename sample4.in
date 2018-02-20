@@ -1,0 +1,13 @@
+10 PRINT "Please enter your name"
+20 IF +K < +(-I+J) THEN GOTO +100
+40 IF +J < +32 THEN GOTO +20
+50 LET I = +K
+60 LET J =+I + 1
+70 GOTO +20
+90 PRINT "Success"
+CLEAR
+110 IF +J > +0 THEN GOTO +170
+120 PRINT +J
+130 LET J = +J + 1
+140 GOTO +120
+END

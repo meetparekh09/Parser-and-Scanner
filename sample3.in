@@ -1,0 +1,11 @@
+PRINT "Welcome"
+10 LET I = +1
+20 IF +I > +10 THEN GOTO +70
+30 PRINT +I
+LIST
+50 LET I = +I + 1
+60 GOSUB +20
+LET J = +21
+INPUT K
+LET L = +J +K
+END

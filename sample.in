@@ -1,0 +1,17 @@
+10 PRINT "__________________________"
+20 PRINT "___ PLAY THE HI_LOW GAME ___"
+30 PRINT "__________________________"
+40 LET N = +R+(+ 100 * 2)+C
+50 INPUT G,R,N
+60 LET C = +C+1
+70 IF +G<+N THEN GOTO +110
+80 IF +G>+N THEN PRINT "LOWER", "TEST", +R+(+ 100 * 2)+C
+90 IF +G<+N THEN PRINT "HIGHER","TEST"
+100 GOTO +50
+PRINT "YOU GUESSED IT IN", +C, " TRIES"
+GOSUB -15+20-200+110
+110 IF +A > -B THEN IF -C > +D THEN IF +E < -F THEN RETURN
+CLEAR
+LIST
+RUN
+END
